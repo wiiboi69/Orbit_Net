@@ -16,7 +16,7 @@ namespace Orbit_Launchpad_Ship_Server
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().AddXmlSerializerFormatters();
 
             builder.Services.AddHttpLogging(configureOptions => { configureOptions.CombineLogs = true; });
 
