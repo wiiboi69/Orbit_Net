@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbit_Launchpad_Ship_Server", "Orbit_Launchpad_Ship_Server\Orbit_Launchpad_Ship_Server.csproj", "{009D8BFD-F3F8-4012-8021-06DC57C1A74B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbit_Auth_Pad", "Orbit_Auth_Pad\Orbit_Auth_Pad.csproj", "{D6424F3C-F1DF-4976-A53E-F160E4621175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{009D8BFD-F3F8-4012-8021-06DC57C1A74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{009D8BFD-F3F8-4012-8021-06DC57C1A74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{009D8BFD-F3F8-4012-8021-06DC57C1A74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6424F3C-F1DF-4976-A53E-F160E4621175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6424F3C-F1DF-4976-A53E-F160E4621175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6424F3C-F1DF-4976-A53E-F160E4621175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6424F3C-F1DF-4976-A53E-F160E4621175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

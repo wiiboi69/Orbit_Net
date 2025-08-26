@@ -6,10 +6,10 @@ namespace Orbit_Launchpad_Ship_Server.api
     public class Login_DTO
     {
         [XmlElement("authTicket")]
-        public string TokenData = "MM_AUTH=";
+        public string? TokenData = "MM_AUTH=";
         [XmlElement("lbpEnvVer")]
-        public string ServerBrand = "Orbit server";
+        public string? ServerBrand = "Orbit server";
         [XmlElement("titleStorageURL")]
-        public string TitleStorageUrl = null;
+        public string? TitleStorageUrl = null;
     }
 }
